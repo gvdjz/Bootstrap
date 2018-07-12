@@ -1,0 +1,33 @@
+#cover {
+  background: #222 url("../img/letstravel.gif");
+  background-size: cover;
+  color: black;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+
+#cover-caption {
+  width: 100%; }
+
+#carousel {
+  margin: 10px; }
+
+.jumbotron {
+  margin: 10px;
+  color: white;
+  background: #222 url("../img/seven-back.jpg");
+  background-size: cover; }
+
+.row {
+  margin: 10px; }
+
+.col-sm-6.card {
+  padding-bottom: 10px; }
+
+.card-deck {
+  margin: 10px; }
+
+.footer.col-sm-4 {
+  margin-left: 34%;
+  padding: 20px 0 0 40px; }

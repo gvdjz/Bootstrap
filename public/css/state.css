@@ -1,0 +1,28 @@
+.container a:hover {
+  text-decoration: none;
+  color: white; }
+
+.display-2:hover {
+  opacity: .8;
+  text-decoration: none; }
+
+.display-3:hover {
+  opacity: .8;
+  text-decoration: none; }
+
+h5.card-title.display-4:hover {
+  opacity: .8; }
+
+@media (max-width: 470px) {
+  h1.display-2 {
+    font-size: 60px; }
+  h1.display-3, h5.card-title.display-4 {
+    font-size: 20px; }
+  .card-text {
+    font-size: 10px; }
+  h1.display-5 {
+    font-size: 20px; }
+  .footer.col-sm-4 {
+    margin-left: 10%;
+    padding: 20px 0 0 40px;
+    width: fit-content; } }

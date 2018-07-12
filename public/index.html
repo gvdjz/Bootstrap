@@ -7,7 +7,7 @@
     <title>Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" media="screen" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
 
@@ -23,12 +23,12 @@
                 </a>
                 <p></p>
 
-                <form action="" class="form-inline">
+                <form class="form-inline">
                     <div class="form-group">
-                        <label class="sr-only">Email</label>
-                        <input type="text" class="form-control form-control-lg" placeholder="email@domain.com">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="text" class="form-control form-control-lg" id="email" placeholder="email@domain.com">
                     </div>
-                    <button type="submit" class="btn btn-success bt-lg">Subscribe</button>
+                    <button type="submit" class="btn btn-dark bt-lg">Subscribe</button>
                 </form>
                 <br>
                 <a href="#nav-main" class="btn btn-secondary-outline btn-sm" role="button">&darr;</a>
@@ -70,8 +70,7 @@
         </div>
     </nav>
     <div class="jumbotron" id="seven">
-        <label for="#carousel-sevenwonders">
-        <h1 class="display-3">Seven Wonders!</h1></label>
+        <h1 class="display-3">Seven Wonders!</h1>
     </div>
     <section id="carousel">
         <div id="carousel-sevenwonders" class="carousel slide" data-ride="carousel">
@@ -278,7 +277,8 @@
                     <h5 class="card-title display-4">Venice</h5>
                     <p class="card-text">Venice is the perfect destination for travelers seeking a unique city experience. The canals that run
                         through the city act as roadways, providing a unique transportation option while delivering a beautiful
-                        scene.</p>
+                        scene.
+                    </p>
                     <p class="card-text">Last updated 3 mins ago</p>
                 </div>
             </div>
@@ -290,7 +290,7 @@
 
     <div class="card-deck">
         <div class="card">
-            <img class="card-img-top" src="./img/c2.jpg" alt="Card image cap">
+            <img class="card-img-top img-circle" src="./img/c2.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">John Franklin</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
@@ -302,7 +302,7 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="./img/c1.jpg" alt="Card image cap">
+            <img class="card-img-top img-circle" src="./img/c1.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Howard Carter</h5>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -313,7 +313,7 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="./img/c3.jpeg" alt="Card image cap">
+            <img class="card-img-top img-circle" src="./img/c3.jpeg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">James Brooklin</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has
@@ -327,14 +327,20 @@
     </div>
     <div class="footer col-sm-4 row col-sm-offset-4">
         <div class="col-4">
-        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
-    </div>
-    <div class="col-4">
-            <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram fa-2x"></i></i></a>
+            <a href="https://www.facebook.com/" target="_blank" id="facebook" value="facebook">
+                <i class="fab fa-facebook-square fa-2x"></i>
+            </a>
         </div>
         <div class="col-4">
-                <a href="https://twitter.com/login?lang=en" target="_blank"><i class="fab fa-twitter fa-2x"></i></i></a>
-            </div>
+            <a href="https://www.instagram.com/?hl=en" target="_blank" id="instagram" value="instagram">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+        </div>
+        <div class="col-4">
+            <a href="https://twitter.com/login?lang=en" target="_blank" id="twitter" value="twitter">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+        </div>
     </div>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/popper.min.js"></script>

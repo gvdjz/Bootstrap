@@ -1,0 +1,40 @@
+.card.bg-dark.text-white {
+  height: 100%;
+  width: 100%; }
+
+.navbar-brand {
+  font-family: sans-serif; }
+
+.form-group {
+  padding-right: 5px; }
+
+.form-inline {
+  display: flex;
+  justify-content: center; }
+
+.container a {
+  color: white; }
+
+h1.display-5 {
+  padding-left: 30px; }
+
+.display-2 {
+  font-weight: bold;
+  opacity: 1;
+  text-shadow: 1px 1px 10px black; }
+
+.display-3 {
+  font-weight: bold;
+  opacity: 1;
+  color: wheat;
+  text-shadow: 1px 1px 10px black; }
+
+.jumbotron.place-on-earth {
+  background: #222 url("../img/place-on-earth.jpg");
+  background-size: cover; }
+
+.jumbotron.place-on-earth h1.display-3 {
+  color: white; }
+
+h5.card-title.display-4 {
+  text-shadow: 1px 1px 10px black; }
