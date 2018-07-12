@@ -1,0 +1,103 @@
+html, body, .card.bg-dark.text-white {
+  height: 100%;
+  width: 100%; }
+
+#cover {
+  background: #222 url("../img/letstravel.gif");
+  background-size: cover;
+  color: black;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+
+#cover-caption {
+  width: 100%; }
+
+#carousel {
+  margin: 10px; }
+
+.navbar-brand {
+  font-family: sans-serif; }
+
+.form-group {
+  padding-right: 5px; }
+
+.form-inline {
+  display: flex;
+  justify-content: center; }
+
+.container a {
+  color: white; }
+
+.container a:hover {
+  text-decoration: none;
+  color: white; }
+
+h1.display-5 {
+  padding-left: 30px; }
+
+.display-2 {
+  font-weight: bold;
+  opacity: 1;
+  text-shadow: 1px 1px 10px black; }
+
+.display-2:hover {
+  opacity: .8;
+  text-decoration: none; }
+
+.jumbotron {
+  margin: 10px;
+  color: white;
+  background: #222 url("../img/seven-back.jpg");
+  background-size: cover; }
+
+.display-3 {
+  font-weight: bold;
+  opacity: 1;
+  color: wheat;
+  text-shadow: 1px 1px 10px black; }
+
+.display-3:hover {
+  opacity: .8;
+  text-decoration: none; }
+
+.jumbotron.place-on-earth {
+  background: #222 url("../img/place-on-earth.jpg");
+  background-size: cover; }
+
+.jumbotron.place-on-earth h1.display-3 {
+  color: white; }
+
+.row {
+  margin: 10px; }
+
+h5.card-title.display-4 {
+  text-shadow: 1px 1px 10px black; }
+
+h5.card-title.display-4:hover {
+  opacity: .8; }
+
+.col-sm-6.card {
+  padding-bottom: 10px; }
+
+.card-deck {
+  margin: 10px; }
+
+.footer.col-sm-4 {
+  margin-left: 34%;
+  padding: 20px 0 0 40px; }
+
+@media (max-width: 470px) {
+  h1.display-2 {
+    font-size: 60px; }
+  h1.display-3, h5.card-title.display-4 {
+    font-size: 20px; }
+  .card-text {
+    font-size: 10px; }
+  h1.display-5 {
+    font-size: 20px; }
+  .footer.col-sm-4 {
+    margin-left: 10%;
+    padding: 20px 0 0 40px;
+    width: fit-content; } }
