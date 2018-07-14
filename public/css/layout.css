@@ -31,3 +31,6 @@
 
 .card-columns {
   margin: 10px; }
+
+.col-md-4.mb-md-0.mb-4 {
+  text-align: center; }

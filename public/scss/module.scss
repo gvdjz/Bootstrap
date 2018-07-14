@@ -43,8 +43,12 @@ h5.card-title.display-4{
  .col-sm-6.card {
      background: #e3e3e3 url('../img/travel.jpg');
  }
- .footer.col-sm-4.row {
-     
-     
+ .footer-copyright {
+    font-weight: bold;
+    color: aliceblue;     
+ }
+ .page-footer {
+    background: #212529;
+    opacity: .9;
  }
  
